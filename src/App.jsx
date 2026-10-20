@@ -1,10 +1,10 @@
-
+﻿
 import './App.css'
 
 const WHATSAPP_NUMBER = '573125382523'
 
 const WHATSAPP_MESSAGE =
-  'Hola, vi tu portafolio profesional y me gustaría contactarte para conversar sobre una oportunidad laboral.'
+  'Hola, vi tu portafolio profesional y me gustarÃ­a contactarte para conversar sobre una oportunidad laboral.'
 
 const WHATSAPP_URL = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(
   WHATSAPP_MESSAGE
@@ -12,39 +12,39 @@ const WHATSAPP_URL = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent
 
 const skills = [
   { name: 'SQL', category: 'Bases de datos', level: 'Consultas y fundamentos' },
-  { name: 'Excel', category: 'Análisis de información', level: 'Herramienta de trabajo' },
-  { name: 'Python', category: 'Programación', level: 'Fundamentos' },
-  { name: 'Java', category: 'Programación', level: 'Fundamentos' },
+  { name: 'Excel', category: 'AnÃ¡lisis de informaciÃ³n', level: 'Herramienta de trabajo' },
+  { name: 'Python', category: 'ProgramaciÃ³n', level: 'Fundamentos' },
+  { name: 'Java', category: 'ProgramaciÃ³n', level: 'Fundamentos' },
   { name: 'JavaScript', category: 'Desarrollo web', level: 'Fundamentos' },
   { name: 'HTML & CSS', category: 'Desarrollo web', level: 'Fundamentos' },
 ]
 
 const experience = [
-  'Gestión de procesos de contratación, afiliaciones y novedades laborales.',
-  'Elaboración de informes de gestión y seguimiento operativo para apoyar la toma de decisiones.',
-  'Organización y actualización de bases de datos y documentación del personal, cuidando la trazabilidad y confidencialidad.',
-  'Apoyo a la mejora de procesos mediante análisis de información e indicadores de gestión.',
-  'Atención a clientes y colaboradores, elaboración de cotizaciones y comunicaciones empresariales.',
+  'GestiÃ³n de procesos de contrataciÃ³n, afiliaciones y novedades laborales.',
+  'ElaboraciÃ³n de informes de gestiÃ³n y seguimiento operativo para apoyar la toma de decisiones.',
+  'OrganizaciÃ³n y actualizaciÃ³n de bases de datos y documentaciÃ³n del personal, cuidando la trazabilidad y confidencialidad.',
+  'Apoyo a la mejora de procesos mediante anÃ¡lisis de informaciÃ³n e indicadores de gestiÃ³n.',
+  'AtenciÃ³n a clientes y colaboradores, elaboraciÃ³n de cotizaciones y comunicaciones empresariales.',
 ]
 
 const education = [
   {
-    period: '2026–ACTUALIDAD',
-    title: 'Ingeniería de Sistemas',
-    institution: 'Fundación Universitaria Los Libertadores',
-    detail: 'Séptimo semestre · En curso',
+    period: '2026â€“ACTUALIDAD',
+    title: 'IngenierÃ­a de Sistemas',
+    institution: 'FundaciÃ³n Universitaria Los Libertadores',
+    detail: 'SÃ©ptimo semestre Â· En curso',
   },
   {
     period: '2022',
-    title: 'Bachiller Académico',
-    institution: 'Institución Educativa Ramón de Zubiría',
-    detail: 'Educación media',
+    title: 'Bachiller AcadÃ©mico',
+    institution: 'InstituciÃ³n Educativa RamÃ³n de ZubirÃ­a',
+    detail: 'EducaciÃ³n media',
   },
   {
     period: '2016',
-    title: 'Educación primaria',
+    title: 'EducaciÃ³n primaria',
     institution: 'Colegio Alexander Fleming I.E.D.',
-    detail: 'Formación básica primaria',
+    detail: 'FormaciÃ³n bÃ¡sica primaria',
   },
 ]
 
@@ -52,32 +52,32 @@ const projects = [
   {
     number: '01',
     title: 'Sistema de reservas hoteleras',
-    type: 'PROYECTO ACADÉMICO',
+    type: 'PROYECTO ACADÃ‰MICO',
     description:
-      'Aplicación desarrollada en el contexto académico para gestionar procesos relacionados con las reservas hoteleras. Incluye funcionalidades de registro e inicio de sesión, administración de habitaciones, gestión de clientes y creación, consulta, modificación y cancelación de reservas. Se aplicaron validaciones para prevenir reservas incorrectas y se implementó la conexión con una base de datos.',
+      'AplicaciÃ³n desarrollada en el contexto acadÃ©mico para gestionar procesos relacionados con las reservas hoteleras. Incluye funcionalidades de registro e inicio de sesiÃ³n, administraciÃ³n de habitaciones, gestiÃ³n de clientes y creaciÃ³n, consulta, modificaciÃ³n y cancelaciÃ³n de reservas. Se aplicaron validaciones para prevenir reservas incorrectas y se implementÃ³ la conexiÃ³n con una base de datos.',
     technologies: ['Node.js', 'Express', 'Sequelize', 'SQLite', 'Docker'],
     details: [
       'Rol: Desarrollador',
-      'Estado: Entregado como proyecto académico',
+      'Estado: Entregado como proyecto acadÃ©mico',
     ],
     link: '',
   },
   {
     number: '02',
     title: 'API de servicios',
-    type: 'PROYECTO ACADÉMICO',
+    type: 'PROYECTO ACADÃ‰MICO',
     description:
-      'Proyecto académico de práctica orientado al desarrollo backend y al trabajo con persistencia de datos. Permite presentar los conocimientos aplicados durante el desarrollo, sin atribuir funcionalidades específicas que aún no se han documentado.',
+      'Proyecto acadÃ©mico de prÃ¡ctica orientado al desarrollo backend y al trabajo con persistencia de datos. Permite presentar los conocimientos aplicados durante el desarrollo, sin atribuir funcionalidades especÃ­ficas que aÃºn no se han documentado.',
     technologies: ['Node.js', 'Express', 'Sequelize', 'SQLite', 'Docker'],
     details: [],
     link: '',
   },
   {
     number: '03',
-    title: 'Prácticas de programación y datos',
-    type: 'PROYECTOS ACADÉMICOS',
+    title: 'PrÃ¡cticas de programaciÃ³n y datos',
+    type: 'PROYECTOS ACADÃ‰MICOS',
     description:
-      'Espacio para presentar ejercicios y trabajos académicos relacionados con programación, bases de datos y análisis de información, destacando los problemas abordados y las soluciones desarrolladas a medida que se documenten.',
+      'Espacio para presentar ejercicios y trabajos acadÃ©micos relacionados con programaciÃ³n, bases de datos y anÃ¡lisis de informaciÃ³n, destacando los problemas abordados y las soluciones desarrolladas a medida que se documenten.',
     technologies: ['SQL', 'Python', 'Java', 'JavaScript'],
     details: [],
     link: '',
@@ -133,14 +133,14 @@ function App() {
           JG<span>.</span>
         </a>
 
-        <nav className="nav-links" aria-label="Navegación principal">
+        <nav className="nav-links" aria-label="NavegaciÃ³n principal">
           <a href="#sobre-mi">Perfil</a>
           <a href="#experiencia">Experiencia</a>
           <a href="#habilidades">Habilidades</a>
           <a href="#proyectos">Proyectos</a>
-          <a href="#formacion">Formación</a>
+          <a href="#formacion">FormaciÃ³n</a>
           <a className="nav-contact" href="#contacto">
-            Contacto ↗
+            Contacto â†—
           </a>
         </nav>
       </header>
@@ -150,11 +150,11 @@ function App() {
           <div className="hero-copy">
             <div className="availability">
               <span className="status-dot" />
-              PERFIL JUNIOR · ABIERTO A OPORTUNIDADES
+              PERFIL JUNIOR Â· ABIERTO A OPORTUNIDADES
             </div>
 
             <p className="eyebrow">
-              INGENIERÍA DE SISTEMAS · BOGOTÁ, COLOMBIA
+              INGENIERÃA DE SISTEMAS Â· BOGOTÃ, COLOMBIA
             </p>
 
             <h1>
@@ -162,20 +162,20 @@ function App() {
               <br />
               con <span>soluciones</span>
               <br />
-              tecnológicas.
+              tecnolÃ³gicas.
             </h1>
 
             <p className="hero-description">
-              Soy estudiante de séptimo semestre de Ingeniería de Sistemas y
+              Soy estudiante de sÃ©ptimo semestre de IngenierÃ­a de Sistemas y
               cuento con experiencia en procesos administrativos, talento
-              humano y análisis de información. Me interesa el soporte de
-              aplicaciones, la mejora de procesos y la tecnología aplicada a
+              humano y anÃ¡lisis de informaciÃ³n. Me interesa el soporte de
+              aplicaciones, la mejora de procesos y la tecnologÃ­a aplicada a
               las necesidades del negocio.
             </p>
 
             <div className="hero-actions">
               <a className="button-primary" href="#proyectos">
-                Explorar proyectos <span>↗</span>
+                Explorar proyectos <span>â†—</span>
               </a>
               <a className="button-secondary" href="#contacto">
                 Contactarme
@@ -184,7 +184,7 @@ function App() {
 
             <div className="hero-note">
               <span className="note-line" />
-              Análisis · Organización · Tecnología
+              AnÃ¡lisis Â· OrganizaciÃ³n Â· TecnologÃ­a
             </div>
           </div>
 
@@ -195,31 +195,31 @@ function App() {
               <div className="photo-label">PERFIL PROFESIONAL / 2026</div>
               <img
                 className="profile-photo"
-                src="/jimmy-perfil.png.jpeg"
-                alt="Fotografía profesional de Jimmy Gomez"
+                src={`${import.meta.env.BASE_URL}jimmy-perfil.png.jpeg`}
+                alt="FotografÃ­a profesional de Jimmy Gomez"
               />
               <div className="photo-caption">
                 <span className="caption-dot" />
                 <div>
                   <strong>Jimmy Gomez</strong>
-                  <small>Ingeniería de Sistemas</small>
+                  <small>IngenierÃ­a de Sistemas</small>
                 </div>
               </div>
             </div>
 
             <div className="floating-card floating-card-top">
-              <span className="mini-icon">⌘</span>
+              <span className="mini-icon">âŒ˜</span>
               <div>
-                <strong>Análisis y solución</strong>
-                <small>Enfoque analítico</small>
+                <strong>AnÃ¡lisis y soluciÃ³n</strong>
+                <small>Enfoque analÃ­tico</small>
               </div>
             </div>
 
             <div className="floating-card floating-card-bottom">
-              <span className="mini-icon">↗</span>
+              <span className="mini-icon">â†—</span>
               <div>
                 <strong>Business + Tech</strong>
-                <small>Procesos y tecnología</small>
+                <small>Procesos y tecnologÃ­a</small>
               </div>
             </div>
 
@@ -238,10 +238,10 @@ function App() {
           <div className="section-container strip-inner">
             <span>MI ENFOQUE</span>
             <p>
-              Entender el problema. Analizar la información. Construir una
-              solución.
+              Entender el problema. Analizar la informaciÃ³n. Construir una
+              soluciÃ³n.
             </p>
-            <span className="strip-symbol">✳</span>
+            <span className="strip-symbol">âœ³</span>
           </div>
         </section>
 
@@ -250,7 +250,7 @@ function App() {
             number="01"
             label="PERFIL"
             title="Una mirada de procesos."
-            accent="Una mentalidad tecnológica."
+            accent="Una mentalidad tecnolÃ³gica."
           />
 
           <div className="about-grid">
@@ -258,15 +258,15 @@ function App() {
               <p>
                 Mi experiencia en el entorno administrativo y de talento
                 humano me ha permitido comprender la importancia de los
-                procesos, la organización de la información, la atención a
+                procesos, la organizaciÃ³n de la informaciÃ³n, la atenciÃ³n a
                 las personas y el seguimiento de las necesidades operativas.
               </p>
               <p>
-                Actualmente curso séptimo semestre de Ingeniería de Sistemas
-                en la Fundación Universitaria Los Libertadores. Busco
+                Actualmente curso sÃ©ptimo semestre de IngenierÃ­a de Sistemas
+                en la FundaciÃ³n Universitaria Los Libertadores. Busco
                 orientar esa experiencia hacia oportunidades junior
-                relacionadas con el soporte de aplicaciones, el análisis de
-                procesos y la tecnología empresarial.
+                relacionadas con el soporte de aplicaciones, el anÃ¡lisis de
+                procesos y la tecnologÃ­a empresarial.
               </p>
             </div>
 
@@ -275,21 +275,21 @@ function App() {
                 <span>OBJETIVO PROFESIONAL</span>
                 <strong>Analista Junior de Soporte de Aplicaciones</strong>
                 <small>
-                  Soporte, análisis y mejora de procesos tecnológicos
+                  Soporte, anÃ¡lisis y mejora de procesos tecnolÃ³gicos
                 </small>
               </div>
 
               <div className="fact">
-                <span>FORMACIÓN ACTUAL</span>
-                <strong>Ingeniería de Sistemas</strong>
-                <small>7.º semestre · En curso</small>
+                <span>FORMACIÃ“N ACTUAL</span>
+                <strong>IngenierÃ­a de Sistemas</strong>
+                <small>7.Âº semestre Â· En curso</small>
               </div>
 
               <div className="fact">
                 <span>EXPERIENCIA</span>
                 <strong>Talento Humano y BI</strong>
                 <small>
-                  Gestión de procesos, informes y datos en 4HOME S.A.S.
+                  GestiÃ³n de procesos, informes y datos en 4HOME S.A.S.
                 </small>
               </div>
             </div>
@@ -304,8 +304,8 @@ function App() {
             number="02"
             label="EXPERIENCIA"
             title="Procesos reales."
-            accent="Información para decidir."
-            description="Experiencia profesional en gestión de personas, información y operación."
+            accent="InformaciÃ³n para decidir."
+            description="Experiencia profesional en gestiÃ³n de personas, informaciÃ³n y operaciÃ³n."
           />
 
           <div className="projects-list">
@@ -314,12 +314,12 @@ function App() {
 
               <div className="project-content">
                 <span className="project-type">
-                  EXPERIENCIA PROFESIONAL · 2023–2026
+                  EXPERIENCIA PROFESIONAL Â· 2023â€“2026
                 </span>
                 <h3>Director de Talento Humano y BI</h3>
                 <p>
-                  4HOME S.A.S. — gestión de talento humano, análisis de
-                  información, informes de gestión y seguimiento operativo.
+                  4HOME S.A.S. â€” gestiÃ³n de talento humano, anÃ¡lisis de
+                  informaciÃ³n, informes de gestiÃ³n y seguimiento operativo.
                 </p>
 
                 <ul className="experience-list">
@@ -329,9 +329,9 @@ function App() {
                 </ul>
 
                 <div className="project-tags">
-                  <span>Gestión de procesos</span>
-                  <span>Análisis de información</span>
-                  <span>Informes de gestión</span>
+                  <span>GestiÃ³n de procesos</span>
+                  <span>AnÃ¡lisis de informaciÃ³n</span>
+                  <span>Informes de gestiÃ³n</span>
                   <span>Confidencialidad de datos</span>
                 </div>
               </div>
@@ -340,7 +340,7 @@ function App() {
                 className="project-link project-link-muted"
                 aria-hidden="true"
               >
-                ↗
+                â†—
               </span>
             </article>
           </div>
@@ -353,7 +353,7 @@ function App() {
               label="HABILIDADES"
               title="Herramientas para"
               accent="resolver problemas."
-              description="Conocimientos técnicos descritos según el nivel indicado en mi hoja de vida."
+              description="Conocimientos tÃ©cnicos descritos segÃºn el nivel indicado en mi hoja de vida."
             />
 
             <div className="skills-grid">
@@ -363,7 +363,7 @@ function App() {
                     <span className="skill-index">
                       {String(index + 1).padStart(2, '0')}
                     </span>
-                    <span className="skill-arrow">↗</span>
+                    <span className="skill-arrow">â†—</span>
                   </div>
                   <h3>{skill.name}</h3>
                   <p>{skill.category}</p>
@@ -375,20 +375,20 @@ function App() {
             <div className="competencies">
               <p className="section-kicker">COMPETENCIAS PROFESIONALES</p>
               <div className="project-tags">
-                <span>Análisis y resolución de problemas</span>
-                <span>Gestión y organización de la información</span>
-                <span>Manejo de documentación confidencial</span>
-                <span>Elaboración de informes</span>
+                <span>AnÃ¡lisis y resoluciÃ³n de problemas</span>
+                <span>GestiÃ³n y organizaciÃ³n de la informaciÃ³n</span>
+                <span>Manejo de documentaciÃ³n confidencial</span>
+                <span>ElaboraciÃ³n de informes</span>
                 <span>Seguimiento operativo</span>
-                <span>Atención al cliente</span>
-                <span>Comunicación efectiva</span>
+                <span>AtenciÃ³n al cliente</span>
+                <span>ComunicaciÃ³n efectiva</span>
                 <span>Trabajo en equipo</span>
-                <span>Aprendizaje rápido de herramientas tecnológicas</span>
-                <span>Orientación al cumplimiento de objetivos</span>
+                <span>Aprendizaje rÃ¡pido de herramientas tecnolÃ³gicas</span>
+                <span>OrientaciÃ³n al cumplimiento de objetivos</span>
                 <span>Liderazgo</span>
-                <span>Gestión del tiempo</span>
+                <span>GestiÃ³n del tiempo</span>
                 <span>Toma de decisiones</span>
-                <span>Pensamiento analítico</span>
+                <span>Pensamiento analÃ­tico</span>
               </div>
             </div>
           </div>
@@ -404,15 +404,15 @@ function App() {
               <h2>
                 Aprender haciendo.
                 <br />
-                <span>Construir con propósito.</span>
+                <span>Construir con propÃ³sito.</span>
               </h2>
             </div>
             <p className="section-description">
-              Proyectos académicos desarrollados durante mi formación en
-              Ingeniería de Sistemas. Cada uno representa una oportunidad
+              Proyectos acadÃ©micos desarrollados durante mi formaciÃ³n en
+              IngenierÃ­a de Sistemas. Cada uno representa una oportunidad
               para aplicar conocimientos, resolver problemas y fortalecer
-              mis habilidades técnicas. Los enlaces se añadirán cuando
-              estén disponibles los repositorios.
+              mis habilidades tÃ©cnicas. Los enlaces se aÃ±adirÃ¡n cuando
+              estÃ©n disponibles los repositorios.
             </p>
           </div>
 
@@ -449,14 +449,14 @@ function App() {
                     rel="noreferrer"
                     aria-label={`Ver proyecto ${project.title}`}
                   >
-                    ↗
+                    â†—
                   </a>
                 ) : (
                   <span
                     className="project-link project-link-muted"
                     aria-hidden="true"
                   >
-                    ↗
+                    â†—
                   </span>
                 )}
               </article>
@@ -470,10 +470,10 @@ function App() {
         >
           <Heading
             number="05"
-            label="FORMACIÓN"
+            label="FORMACIÃ“N"
             title="Una base para"
             accent="seguir creciendo."
-            description="Formación académica registrada en mi hoja de vida."
+            description="FormaciÃ³n acadÃ©mica registrada en mi hoja de vida."
           />
 
           <div className="projects-list">
@@ -482,7 +482,7 @@ function App() {
                 <span className="project-number">{item.period}</span>
 
                 <div className="project-content">
-                  <span className="project-type">FORMACIÓN ACADÉMICA</span>
+                  <span className="project-type">FORMACIÃ“N ACADÃ‰MICA</span>
                   <h3>{item.title}</h3>
                   <p>{item.institution}</p>
                   <div className="project-tags">
@@ -496,8 +496,8 @@ function App() {
           <div className="competencies languages-block">
             <p className="section-kicker">IDIOMAS</p>
             <div className="project-tags">
-              <span>Español</span>
-              <span>Inglés</span>
+              <span>EspaÃ±ol</span>
+              <span>InglÃ©s</span>
             </div>
           </div>
         </section>
@@ -507,15 +507,15 @@ function App() {
             <span className="section-kicker">06 / CONTACTO</span>
 
             <h2>
-              ¿Construimos algo
+              Â¿Construimos algo
               <br />
               <span>que genere valor?</span>
             </h2>
 
             <p>
               Estoy interesado en oportunidades junior donde pueda aportar mi
-              experiencia en procesos, fortalecer mis conocimientos técnicos
-              y crecer profesionalmente en el área de tecnología.
+              experiencia en procesos, fortalecer mis conocimientos tÃ©cnicos
+              y crecer profesionalmente en el Ã¡rea de tecnologÃ­a.
             </p>
 
             <div className="contact-actions">
@@ -523,11 +523,11 @@ function App() {
                 className="button-primary"
                 href="mailto:jimmy02gomez@gmail.com"
               >
-                Escríbeme un correo <span>↗</span>
+                EscrÃ­beme un correo <span>â†—</span>
               </a>
 
               <a className="button-secondary" href="tel:+573125382523">
-                Llamar <span>↗</span>
+                Llamar <span>â†—</span>
               </a>
 
               <a
@@ -538,12 +538,12 @@ function App() {
                 aria-label="Contactar por WhatsApp"
               >
                 <WhatsAppIcon size={19} />
-                WhatsApp <span>↗</span>
+                WhatsApp <span>â†—</span>
               </a>
             </div>
 
             <div className="contact-email">
-              jimmy02gomez@gmail.com · 312 538 2523 · Bogotá, Colombia
+              jimmy02gomez@gmail.com Â· 312 538 2523 Â· BogotÃ¡, Colombia
             </div>
           </div>
         </section>
@@ -553,18 +553,18 @@ function App() {
         <a className="brand" href="#inicio">
           JG<span>.</span>
         </a>
-        <p>Diseñado y desarrollado con React.</p>
-        <span>© {new Date().getFullYear()} Jimmy Gomez</span>
+        <p>DiseÃ±ado y desarrollado con React.</p>
+        <span>Â© {new Date().getFullYear()} Jimmy Gomez</span>
       </footer>
 
-      {/* Botón flotante de WhatsApp */}
+      {/* BotÃ³n flotante de WhatsApp */}
       <a
         className="whatsapp-float"
         href={WHATSAPP_URL}
         target="_blank"
         rel="noopener noreferrer"
-        aria-label="Escríbeme por WhatsApp"
-        title="Escríbeme por WhatsApp"
+        aria-label="EscrÃ­beme por WhatsApp"
+        title="EscrÃ­beme por WhatsApp"
         style={{
           position: 'fixed',
           right: '24px',
@@ -590,3 +590,4 @@ function App() {
 }
 
 export default App
+
